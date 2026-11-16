@@ -4,7 +4,28 @@ export const YEARS: Year[] = [1, 2, 3];
 
 /** Disciplinas pré-carregadas por ano. Anos sem lista começam vazios e você adiciona as suas. */
 export const SUBJECTS_BY_YEAR: Record<Year, string[]> = {
-  1: [],
+  1: [
+    "Biologia",
+    "Desenvolvimento",
+    "Educação Física",
+    "Estatística",
+    "Filosofia",
+    "Física",
+    "Geografia",
+    "História",
+    "Língua Inglesa",
+    "Língua Portuguesa 2-Chefia e Liderança",
+    "Língua Portuguesa e suas Literaturas",
+    "Matemática",
+    "Matemática 13-Programação",
+    "Matemática 14 - Inteligência Artificial",
+    "Matemática 2-Lógica de Programação",
+    "Matemática 9-Banco de Dados",
+    "Metodologia de Projetos",
+    "Química",
+    "Sistemas Operacionais",
+    "UX",
+  ],
   2: [
     "Desenvolvimento e Operações Ágeis",
     "Estatística",
